@@ -1,6 +1,6 @@
 # Scene Structure Inference through Scene Map Estimation
 This repository contains the code used to train and test the network described
-in the paper *Scene Structure Inference through Scene Map Estimation*.
+in the paper [*Scene Structure Inference through Scene Map Estimation*](http://geometry.cs.ucl.ac.uk/projects/2016/scenemap/paper_docs/scenemap.pdf).
 
 *Note*: The current data available is the data used to generate Figure 8 in the
 paper, i.e. the overly dense and cluttered scenes. This means the performance
