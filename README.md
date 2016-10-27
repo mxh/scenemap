@@ -2,6 +2,11 @@
 This repository contains the code used to train and test the network described
 in the paper *Scene Structure Inference through Scene Map Estimation*.
 
+*Note*: The current data available is the data used to generate Figure 8 in the
+paper, i.e. the overly dense and cluttered scenes. This means the performance
+you will get is close to what you see in Table 2, not the one in Table 1. The
+data for Table 1 will be released soon.
+
 ### Introduction
 Currently, we release the model files for the depth, semantics and scene map
 estimation networks, as well as a set of data generated using the rendering
