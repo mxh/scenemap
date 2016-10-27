@@ -17,11 +17,11 @@ details).
 * [CuDNN]
 
 ### Setup
+
 1. Clone the repository
 ```Shell
 git clone https://github.com/mxh/scenemap.git
 ```
-
 2. Download the model and data files
 ```Shell
 # The directory in which the repo has been cloned is $SM_ROOT
