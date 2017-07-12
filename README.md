@@ -7,6 +7,8 @@ paper, i.e. the overly dense and cluttered scenes. This means the performance
 you will get is close to what you see in Table 2, not the one in Table 1. The
 data for Table 1 will be released soon.
 
+All code, except for where specified, written by Moos Hueting.
+
 ### Introduction
 Currently, we release the model files for the depth, semantics and scene map
 estimation networks, as well as a set of data generated using the rendering
