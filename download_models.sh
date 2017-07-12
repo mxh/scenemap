@@ -39,6 +39,9 @@ cd models
 echo '-------------------------------------'
 echo 'Downloading depth estimation model...'
 echo '-------------------------------------'
+if [ ! -d depth ]; then
+    mkdir depth
+fi
 cd depth
 MODEL_CHECKSUM=099fa3487455eb6efca862c42324dc5d
 MODEL_URL=$ROOT_URL/depth/$MODEL_FILE
@@ -55,6 +58,9 @@ cd ..
 echo '-------------------------------------'
 echo 'Downloading semantic segmentation model...'
 echo '-------------------------------------'
+if [ ! -d semantics ]; then
+    mkdir semantics
+fi
 cd semantics
 MODEL_CHECKSUM=ac12a0fbf5232949074ae6e41576fa26
 MODEL_URL=$ROOT_URL/semantics/$MODEL_FILE
@@ -71,6 +77,9 @@ cd ..
 echo '-------------------------------------'
 echo 'Downloading scene map estimation model...'
 echo '-------------------------------------'
+if [ ! -d map ]; then
+    mkdir map
+fi
 cd map
 MODEL_CHECKSUM=6808f72610daeed503b23e62fcb19329
 MODEL_URL=$ROOT_URL/map/best_model_16x16.t7
